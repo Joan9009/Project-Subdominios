@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "fcyt.umss.edu",
+        "ip": "192.168.1.10",
+        "ubicacion": "Cochabamba, Bolivia",
+        "estado": "Activo"
+    },
+    {
+        "nombre": "facebook.com",
+        "ip": "192.168.1.20",
+        "ubicacion": "Santa Cruz, Bolivia",
+        "estado": "Mantenimiento"
+    },
+    {
+        "nombre": "foro.umss.edu",
+        "ip": "192.168.1.30",
+        "ubicacion": "La Paz, Bolivia",
+        "estado": "Activo"
+    }
+]

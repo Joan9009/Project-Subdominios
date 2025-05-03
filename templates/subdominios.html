@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Subdominios</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Subdominios encontrados</h1>
+    <div class="contenedor">
+        {% for sub in subdominios %}
+        <div class="tarjeta">
+            <h2>{{ sub.nombre }}</h2>
+            <p><strong>IP:</strong> {{ sub.ip }}</p>
+            <p><strong>Ubicación:</strong> {{ sub.ubicacion }}</p>
+            <p><strong>Estado:</strong> {{ sub.estado }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
